@@ -6,7 +6,7 @@ const postSchema = new Schema({
     image: String,
     text: String,
     id: String,
-    catregory: String
+    category: String
 }, {versionKey: false});
 const Posts = mongoose.model('Posts', postSchema)
 
