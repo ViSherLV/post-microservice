@@ -8,7 +8,7 @@ require('./routes')(app);
 mongoose.connect("mongodb+srv://visher:chatbot@cluster0.mxirp.mongodb.net/NewsWebsite?retryWrites=true&w=majority", { useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false }, function(err){
     if(err) return console.log(err);
     app.listen(3001, function(){
-        console.log("Сервер ожидает подключения...");
+        console.log("Post service is on...");
     });
 });
 
